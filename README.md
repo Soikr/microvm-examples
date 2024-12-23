@@ -20,6 +20,18 @@ Restarting the microvms requires `sudo microvm -Ru (microvm name)`
 >For example, you can restart the Minecraft microvm after tweaking its configs and rebuilding the host with:
 `sudo microvm -Ru Minecraft`
 
+## To do
+1. Extra services like wireguard
+2. Minecraft vm better managed imperatively
+>Make a few notes on imperative configuration
+>
+>Remove declarative deployment for minecraft
+>
+>Better minecraft example to better reflect a real configuration
+3. Configuration cleanup
+4. Additional removal info
+5. Eventually programmed networking alternative
+
 ## Extra
 Not sure why but removal of microvms is iffy. These may help:
 
